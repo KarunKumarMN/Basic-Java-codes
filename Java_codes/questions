@@ -1,0 +1,42 @@
+1.     System.out.println(  new Test() );  //print the allocated address
+      System.out.println(  new boolean[32]); //print the allocated address
+
+2.   function   :  return type
+        s.o.p   : void
+        nextInt : int 
+        nextFloat: float 
+        nextDouble: double  
+        counstructors: dont have any return_type
+
+        
+3. default value of array of type int is 0
+
+4. char a[]={'a','r','u'};
+        System.out.println(a);// prints aru
+
+5. we cant return multiple value in return statement of the functuion
+
+6.Java doesnt support the access of garbage values because for the initial error detection ie.. if we perform the any calculation using the garbage we get the garbage as the ouput
+
+7. Java supports only call by value
+
+8. Strings
+        String s="karun";
+        s[0]='a'; //error
+        System.out.println(s[0]);//error
+        //we cant use square brackets for the strings
+
+9. by default strings are immutable
+
+10.int to string
+        1.int number = 42;
+          String str = String.valueOf(number);
+
+        2.int number = 42;
+         String str = Integer.toString(number);
+
+
+        3.int number = 42;
+          String str = String.format("%d", number);
+        
+        4.String str=""+23432 or number
